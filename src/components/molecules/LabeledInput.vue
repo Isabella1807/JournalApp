@@ -7,6 +7,7 @@ import BasicInput from "@/components/atoms/BasicInput.vue";
   <div>
     <BasicInput id="email" placeholder="Email"/>
     <BasicInput id="password" placeholder="Password"/>
+    <BasicInput v-if="" id="" placeholder=""/>
   </div>
 </template>
 
