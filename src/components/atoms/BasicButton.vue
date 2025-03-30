@@ -25,6 +25,11 @@ const props = defineProps({
 .large {
   display: block;
   width: 100%;
+
+  &:hover{
+    cursor: pointer;
+    background-color: $otherBlue;
+  }
 }
 
 .default {
